@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.lw:hover {
+  filter: drop-shadow(0 0 2em #2aa2d1aa);
+}
+.cl:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.km:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.gr:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.orgF {
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* centraliza os itens */
+}
+
+.orgF img {
+  width: 350px; /* ou outro tamanho menor */
+  height: auto; /* mantém a proporção */
+  object-fit: cover; 
+}
+
+.orgM {
+  display:flex;
+  gap: 10px;
+  justify-content: center; /* centraliza os itens */
+}
+
+.orgM img {
+  width: 350px; /* ou outro tamanho menor */
+  height: auto; /* mantém a proporção */
+  object-fit: cover; 
+}
+
